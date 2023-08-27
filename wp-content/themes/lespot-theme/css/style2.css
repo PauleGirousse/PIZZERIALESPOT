@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* color: red; */
+}
+
+.bg {
+  /* The image used */
+  background-image: linear-gradient(
+      -225deg,
+      rgba(0, 101, 168, 0.3) 0%,
+      rgba(0, 36, 61, 0.3) 50%
+    ),
+    url("../img/gs.jpg");
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: #fff;
+}
+
+.bg a {
+  color: white;
+  text-decoration: underline;
+  background-color: rgba(3, 43, 70, 0.7);
+}
